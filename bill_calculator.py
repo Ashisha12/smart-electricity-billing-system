@@ -1,3 +1,4 @@
+
 def calculate_bill(units):
     if units <= 100:
         amount = units * 1.5
@@ -17,3 +18,6 @@ try:
     print("Thank you for using Smart Electricity Billing System")
 except ValueError:
     print("Please enter a valid number.")
+
+
+
